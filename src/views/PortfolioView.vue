@@ -11,7 +11,7 @@ export default {
           status: 'My personal website, I created this website to display my profile, skills and some useful tools. This was an individual simple project for the subject Web Development.',
           tech: 'HTML, CSS, JS',
           github: 'https://github.com/dayangnurnazihah/WP.git',
-          demo: 'https://66f4bc742aa0b92dec82729d--miniportfoliodayang.netlify.app/'
+          demo: 'https://miniportfoliodayang.netlify.app/'
         },
         {
           id: 2,
