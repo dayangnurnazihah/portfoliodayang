@@ -17,10 +17,28 @@ export default {
           id: 2,
           name: 'Collaborative Project Management Tool',
           imageUrl: 'SADM',
-          status: 'A website that for the subject System Design and Analysis. This project focused more on the report rather than the site so i may deem it as not fully functional. If i were given the opportunity to create this website for my university, I would definitely do it as I\'ve seen many  students struggling to find a suitable tool for their group projects',
+          status: 'A website for the subject System Design and Analysis. This project focused more on the report rather than the site so i may deem it as not fully functional. If i were given the opportunity to create this website for my university, I would definitely do it as I\'ve seen many  students struggling to find a suitable tool for their group projects',
           tech: 'Adalo',
           github: 'null',
           demo: 'https://dayang-nur-nazihah-binti-m-roslans-team.adalo.com/project-tracker-app'
+        },
+        {
+          id: 3,
+          name: 'Merchie Shop',
+          imageUrl: 'merchie',
+          status: 'A project i worked on for Human Computer Interaction using wix as my tool, this website focuses on design and user usability.',
+          tech: 'Wix',
+          github: 'null',
+          demo: 'https://dayangnurnazihahm.wixsite.com/merchie-shop'
+        },
+        {
+          id: 4,
+          name: 'Crochet Store',
+          imageUrl: 'crochet',
+          status: 'Another project for Human Computer Interaction using wix as my tool, this purpose of this site was to showcase what online store i could create, where i chose my handmade crochet items..',
+          tech: 'Wix',
+          github: 'null',
+          demo: 'https://dayangnurnazihahm.wixsite.com/merchie-shop'
         }
       ]
     };
