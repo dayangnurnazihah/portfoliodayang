@@ -35,7 +35,7 @@ export default {
           id: 4,
           name: 'Crochet Store',
           imageUrl: 'crochet',
-          status: 'Another project for Human Computer Interaction using wix as my tool, this purpose of this site was to showcase what online store i could create, where i chose my handmade crochet items..',
+          status: 'Another project for Human Computer Interaction using wix as my tool, the purpose of this site was to showcase what online store i could create, where i chose my handmade crochet items..',
           tech: 'Wix',
           github: 'null',
           demo: 'https://dayangnurnazihahm.wixsite.com/merchie-shop'
