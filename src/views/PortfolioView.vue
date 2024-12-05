@@ -39,6 +39,15 @@ export default {
           tech: 'Wix',
           github: 'null',
           demo: 'https://dayangnurnazihahm.wixsite.com/merchie-shop'
+        },
+        {
+          id: 5,
+          name: 'Accessory Mini Game',
+          imageUrl: 'minigame',
+          status: 'A cute mini game for Ohdayang batik accessories to customize pins earrings or bag charms',
+          tech: 'HTML, CSS, JS',
+          github: 'https://github.com/dayangnurnazihah/portfoliodayang.git',
+          demo: 'https://ohdayangcustompopup.netlify.app/'
         }
       ]
     };
