@@ -174,6 +174,22 @@ export default {
           status: "API Documentation and Testing",
         },
       ],
+      experience: [
+        {
+          id: 1,
+          company: "WORQ Coworking Space",
+          position: "Intern IT (Software)",
+          logo: "https://worq.space/wp-content/uploads/2022/11/logo-footer.webp",
+          duration: "23/12/2024 - 11/4/2025",
+        },
+        {
+          id: 1,
+          company: "WORQ Coworking Space",
+          position: "Junior Software Engineer",
+          logo: "https://worq.space/wp-content/uploads/2022/11/logo-footer.webp",
+          duration: "21/4/2025 - 12/9/2025",
+        },
+      ],
     };
   },
 };
@@ -199,33 +215,41 @@ export default {
       <section
         class="flex flex-col gap-4 text-sm text-justify md:text-lg md:flex-row md:gap-8 md:justify-left md:items-center"
       >
-        <div class="flex justify-center">
+        <div class="flex justify-center w-1/4">
           <img
-            class="w-9/12 mb-3 rounded-full fadein-up"
-            src="https://i.postimg.cc/C11kqwt9/avatar.jpg"
+            class="w-full mb-3 rounded-full fadein-up"
+            src="https://iili.io/K9rhiqN.jpg"
             alt="Foto"
           />
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
             Hi everyone! I’m <strong>Dayang Nur Nazihah binti M Roslan</strong>,
-            a Computer Science student at UTM Kuala Lumpur, currently
-            maintaining a <strong>3.96 CGPA</strong>. My academic journey is
-            driven by a deep interest in programming and development, with
-            practical experience in Full Stack Web Development.
+            a Computer Science graduate from UTM Kuala Lumpur, where I
+            maintained a <strong>3.96 CGPA</strong> throughout my diploma. My
+            academic journey is driven by a deep interest in programming and
+            development, with practical experience in Full Stack Web
+            Development.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            I have successfully led and contributed to a range of web and mobile
-            application projects, strengthening my expertise in system design
-            and project management. My interests span both hardware and software
-            development, and I take pride in presenting complex concepts in a
-            clear and accessible manner. In addition, my experience at Baskin
-            Robbins enhanced my interpersonal and communication skills through
-            daily engagement with customers from diverse backgrounds. I am
-            fluent in several languages, enabling effective collaboration in
-            multicultural settings. I remain committed to pursuing new
-            challenges and applying my knowledge to deliver innovative,
-            results-driven solutions.
+            Throughout my studies in computer science, I discovered my true
+            passion for software engineering, especially web development. While
+            I had learned basic coding from a young age, it wasn't until I
+            entered the workforce during my internship that I truly understood
+            the depth and complexity of professional development. My intense
+            focus on academics had left little time to explore the practical
+            applications of what I was learning, so this real-world experience
+            opened up an entirely new perspective on the field.
+          </p>
+
+          <p class="mb-3 fadein-left fadeins-2">
+            I began my development career as a frontend developer working on an
+            enterprise resource planning project. My experience expanded
+            significantly when I was assigned as the sole developer for a KPI
+            management system, which required me to transition into full stack
+            development. Since then, I've worked on multiple full stack
+            projects, primarily using Angular, TypeScript, and Express as my
+            core tech stack.
           </p>
         </div>
       </section>
@@ -347,6 +371,66 @@ export default {
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm w-48 text-wrap"
                   >
                     {{ item.status }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <header>
+        <div
+          class="flex items-center mb-5 text-2xl font-bold text-white fadein-bot title-section"
+        >
+          <div
+            class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"
+            data-aos="zoom-in-left"
+            data-aos-duration="600"
+          ></div>
+          &nbsp; Experience
+        </div>
+      </header>
+      <section>
+        <div>
+          <div
+            class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12"
+          >
+            <div v-for="item in experience" :key="item.id" class="col-span-2">
+              <div
+                class="flex items-center gap-2 px-2 py-2 border rounded cursor-pointer item-tech border-amber-200 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3"
+              >
+                <div
+                  class="flex items-center justify-center w-24 h-24 p-0 lg:h-24 lg:w-32 lg:p-2 zoom-in"
+                >
+                  <img
+                    alt="HTML"
+                    loading="lazy"
+                    width="48"
+                    height="48"
+                    decoding="async"
+                    data-nimg="1"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
+                    :src="item.logo"
+                    style="color: transparent"
+                  />
+                </div>
+                <div
+                  class="flex flex-col items-start text-sm md:text-base lg:text-lg"
+                >
+                  <div
+                    class="font-medium transition-all duration-300 translate-y-0 text-secondary"
+                  >
+                    {{ item.company }}
+                  </div>
+                  <div
+                    class="text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm text-wrap"
+                  >
+                    {{ item.position }}
+                  </div>
+                  <div
+                    class="text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm text-wrap"
+                  >
+                    {{ item.duration }}
                   </div>
                 </div>
               </div>
